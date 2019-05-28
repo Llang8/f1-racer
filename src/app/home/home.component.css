@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.table-wrapper {
+    background: rgb(39,39,39);
+    color: white;
+    padding: 25px;
+    margin-top: 25px;
+    width: 70%;
+    min-width: 600px;
+}
+
+.racer-table {
+    width: 100%;
+    min-width: 600px;
+    border-collapse: collapse;
+}
+
+.racer-table-row > td {
+    padding: 20px 0px;
+}
+
+.racer-table-row { 
+    border-bottom: solid thin rgb(75,75,75); 
+}
+
+.labels {
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+.navbar {
+    background: white;
+    color: black;
+    font-family: 'sans-serif';
+}
+
+.navbar > ul {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.navbar > ul > li {
+    list-style-type: none;
+}
+
+.navbar > ul > li > a {
+    text-decoration-style: none;
+    text-decoration: none;
+    color: black;
+}

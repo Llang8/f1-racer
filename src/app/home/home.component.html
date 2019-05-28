@@ -1,0 +1,22 @@
+<div class="wrapper">
+  <div class="search">
+  </div>
+  <div class="table-wrapper">
+    <table class="racer-table">
+      <thead class="labels">
+        <td>Position</td>
+        <td>Name</td>
+        <td>Nationality</td>
+        <td>Sponsor</td>
+        <td>Points</td>
+      </thead>
+      <tr class="racer-table-row" *ngFor="let racer of racers">
+        <td>{{racer.position}}</td>
+        <td><a href="{{racer.Driver.url}}" target="_blank">{{racer.Driver.givenName}} {{racer.Driver.familyName}}</a></td>
+        <td>{{racer.Driver.nationality}}</td>
+        <td>{{racer.Constructors[0].name}}</td>
+        <td>{{racer.points}}</td>
+      </tr>
+    </table>
+  </div>
+</div>
